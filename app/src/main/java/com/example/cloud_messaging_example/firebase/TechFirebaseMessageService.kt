@@ -70,7 +70,7 @@ class TechFirebaseMessageService : FirebaseMessagingService() {
             .setPriority(NotificationCompat.PRIORITY_HIGH)
             .setStyle(NotificationCompat.BigTextStyle().bigText((data["body"])))
             .setContentIntent(pendingIntent)
-            .setSmallIcon(androidx.core.R.drawable.notification_bg)
+            .setSmallIcon(R.drawable.ic_message)
 
 
         with(NotificationManagerCompat.from(this)){
